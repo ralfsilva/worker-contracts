@@ -5,7 +5,7 @@ public class Department {
 	private String name;
 	
 	
-	Department() {
+	public Department() {
 	}
 
 	public Department(String name) {

@@ -15,10 +15,10 @@ public class Worker {
 	private Department department; // associação
 	private List<HourContract> contracts = new ArrayList<>(); // associação
 
-	Worker() {
+	public Worker() {
 	}
 
-	Worker(String name, WorkerLevel level, Double baseSalary, Department department) {
+	public Worker(String name, WorkerLevel level, Double baseSalary, Department department) {
 		this.name = name;
 		this.level = level;
 		this.baseSalary = baseSalary;
